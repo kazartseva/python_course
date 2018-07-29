@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55a9b937-3aa6-4b38-81d0-de3b7636f437" name="Default" comment="Задание #1 Подготовить инфраструктуру и создать первый работающий тест">
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+    <list default="true" id="55a9b937-3aa6-4b38-81d0-de3b7636f437" name="Default" comment="Добавлен записанный рекордером тест для добавления контакта">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_contact" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,38 +23,65 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="339" />
-          <entry key="txt" value="13" />
+          <entry key="py" value="817" />
+          <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="339" />
+          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="Python" value="817" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
+          <entry key="test_add_contact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="-50">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
-                <marker date="1532879584203" expanded="true" signature="782:787" ph="..." />
+                <marker date="1532879792715" expanded="true" signature="782:787" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_add_contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-530">
+              <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+              <folding>
+                <element signature="e#24#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <marker date="1532884372218" expanded="true" signature="14:15" ph="..." />
+                <marker date="1532884372218" expanded="true" signature="14:20" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,8 +117,10 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/env/test_add_group.py" />
-        <option value="$PROJECT_DIR$/test_add_group.py" />
         <option value="$PROJECT_DIR$/group.py" />
+        <option value="$PROJECT_DIR$/test_add_group.py" />
+        <option value="$PROJECT_DIR$/contact.py" />
+        <option value="$PROJECT_DIR$/test_add_contact.py" />
       </list>
     </option>
   </component>
@@ -137,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_add_group.test_add_group">
+  <component name="RunManager" selected="Python tests.pytest for test_add_contact.test_add_contact.test_create_contact">
     <configuration name="test_add_group" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,20 +203,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_add_group.test_add_group.test_test_add_group" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/env" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.test_add_group.test_test_add_group&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,18 +217,50 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_contact.test_add_contact.test_create_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_add_group.test_add_group.test_test_add_group" />
       <item itemvalue="Python tests.Unittests for test_add_group.test_add_group" />
       <item itemvalue="Python tests.Unittests in test_add_group.py" />
       <item itemvalue="Python.test_add_group" />
+      <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
+      <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact.test_create_contact" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact.test_create_contact" />
+        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
         <item itemvalue="Python tests.Unittests for test_add_group.test_add_group" />
         <item itemvalue="Python.test_add_group" />
         <item itemvalue="Python tests.Unittests in test_add_group.py" />
-        <item itemvalue="Python tests.Unittests for test_add_group.test_add_group.test_test_add_group" />
       </list>
     </recent_temporary>
   </component>
@@ -262,39 +310,46 @@
       <option name="project" value="LOCAL" />
       <updated>1532875329431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавлен записанный рекордером тест для добавления контакта">
+      <created>1532880392969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532880392969</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_add_group_test_add_group - 2018.07.29 at 12h 53m 40s.xml">
-      <configuration name="Unittests for test_add_group.test_add_group" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact - 2018.07.29 at 18h 09m 58s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_group_py - 2018.07.29 at 13h 21m 19s.xml">
-      <configuration name="Unittests in test_add_group.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact - 2018.07.29 at 18h 10m 23s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_add_group_test_add_group_test_test_add_group - 2018.07.29 at 13h 27m 38s.xml">
-      <configuration name="Unittests for test_add_group.test_add_group.test_test_add_group" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 18h 31m 22s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_add_group_test_add_group_test_test_add_group - 2018.07.29 at 13h 32m 48s.xml">
-      <configuration name="Unittests for test_add_group.test_add_group.test_test_add_group" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 18h 32m 32s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_group_py - 2018.07.29 at 16h 12m 26s.xml">
-      <configuration name="Unittests in test_add_group.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 18h 53m 45s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_group_py - 2018.07.29 at 16h 12m 59s.xml">
-      <configuration name="Unittests in test_add_group.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 18h 56m 06s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_group_py - 2018.07.29 at 16h 34m 45s.xml">
-      <configuration name="Unittests in test_add_group.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 18h 57m 26s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_add_group_test_add_group - 2018.07.29 at 16h 38m 52s.xml">
-      <configuration name="Unittests for test_add_group.test_add_group" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 18h 59m 10s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_add_group_test_add_group - 2018.07.29 at 17h 45m 17s.xml">
-      <configuration name="Unittests for test_add_group.test_add_group" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 19h 23m 45s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_add_group_test_add_group - 2018.07.29 at 17h 47m 21s.xml">
-      <configuration name="Unittests for test_add_group.test_add_group" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_contact_test_add_contact_test_create_contact - 2018.07.29 at 19h 27m 01s.xml">
+      <configuration name="pytest for test_add_contact.test_add_contact.test_create_contact" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -306,7 +361,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985657" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09256845" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14863104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,7 +383,8 @@
     <MESSAGE value="Создан проект в PyCharm" />
     <MESSAGE value="Записан рекордером сценарий" />
     <MESSAGE value="Задание #1 Подготовить инфраструктуру и создать первый работающий тест" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание #1 Подготовить инфраструктуру и создать первый работающий тест" />
+    <MESSAGE value="Добавлен записанный рекордером тест для добавления контакта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен записанный рекордером тест для добавления контакта" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/env/test_add_group_2.py" />
@@ -364,13 +420,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <marker date="1532884372218" expanded="true" signature="14:15" ph="..." />
+            <marker date="1532884372218" expanded="true" signature="14:20" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="-50">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
-            <marker date="1532879584203" expanded="true" signature="782:787" ph="..." />
+            <marker date="1532879792715" expanded="true" signature="782:787" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530">
+          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
