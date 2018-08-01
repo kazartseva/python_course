@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from contact import Contact
-from group import Group
 from application import Application
 import pytest
 
