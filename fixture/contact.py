@@ -78,3 +78,6 @@ class ContactHelper:
         wd.find_element_by_name("notes").send_keys(contact.notes)
         # submit contact creation
         wd.find_element_by_name("submit").click()
+
+
+
