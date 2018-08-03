@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a9b937-3aa6-4b38-81d0-de3b7636f437" name="Default" comment="Добавлен записанный рекордером тест для добавления контакта">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +24,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="1307" />
+          <entry key="py" value="1310" />
           <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="1307" />
+          <entry key="Python" value="1310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,11 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="e#24#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -141,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="256" />
-    <option name="y" value="154" />
+    <option name="x" value="683" />
+    <option name="y" value="108" />
     <option name="width" value="1212" />
     <option name="height" value="796" />
   </component>
@@ -196,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_add_group.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_add_group.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +211,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_add_group.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,11 +226,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.test_add_empty_group&quot;" />
+      <option name="_new_target" value="&quot;test.test_add_group.test_add_empty_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,7 +241,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test.test_add_group.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -261,7 +256,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -282,17 +277,17 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_add_group" />
-      <item itemvalue="Python tests.pytest for test_add_group" />
+      <item itemvalue="Python tests.pytest for test.test_add_group" />
       <item itemvalue="Python tests.pytest in test_add_contact.py" />
-      <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
-      <item itemvalue="Python tests.pytest for test_add_group.test_add_empty_group" />
+      <item itemvalue="Python tests.pytest for test.test_add_group.test_add_group" />
+      <item itemvalue="Python tests.pytest for test.test_add_group.test_add_empty_group" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_empty_group" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
+        <item itemvalue="Python tests.pytest for test.test_add_group.test_add_empty_group" />
+        <item itemvalue="Python tests.pytest for test.test_add_group.test_add_group" />
         <item itemvalue="Python.test_add_group" />
       </list>
     </recent_temporary>
@@ -354,15 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_add_contact_test_add_group - 2018.08.01 at 16h 17m 44s.xml">
-      <configuration name="pytest for test_add_contact.test_add_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_add_contact_test_create_contact - 2018.08.01 at 17h 09m 54s.xml">
-      <configuration name="pytest for test_add_contact.test_create_contact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_contact_py - 2018.08.01 at 17h 10m 37s.xml">
-      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_contact_py - 2018.08.01 at 17h 11m 10s.xml">
       <configuration name="pytest in test_add_contact.py" configurationId="tests" />
     </history-entry>
@@ -384,9 +370,18 @@
     <history-entry file="pytest_in_test_add_group_py - 2018.08.01 at 17h 18m 01s.xml">
       <configuration name="pytest in test_add_group.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.08.01 at 17h 18m 59s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.08.01 at 17h 19m 20s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.08.01 at 17h 21m 06s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="192" width="1212" height="796" extended-state="0" />
+    <frame x="329" y="145" width="1212" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2006717" />
@@ -394,7 +389,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985657" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3806818" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.265625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,11 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
