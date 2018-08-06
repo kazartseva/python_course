@@ -10,6 +10,11 @@ class ContactHelper:
         wd = self.app.wd
         # init contact creation
         wd.find_element_by_link_text("add new").click()
+        self.fill_contact_form(contact)
+        # submit contact creation
+        wd.find_element_by_name("submit").click()
+
+    def fill_contact_form(self, contact):
         # fill contact form
         self.change_field_value("firstname", contact.firstname)
         self.change_field_value("middlename", contact.middlename)
@@ -35,8 +40,6 @@ class ContactHelper:
         self.select_value("bmonth", contact.bmonth)
         self.select_value("aday", contact.aday)
         self.select_value("amonth", contact.amonth)
-        # submit contact creation
-        wd.find_element_by_name("submit").click()
 
     def select_value(self, dropdown, text):
         wd = self.app.wd
@@ -52,7 +55,20 @@ class ContactHelper:
 
     def delete_first_contact(self):
         wd = self.app.wd
-        wd.find_element_by_name("selected[]").click()
+        self.select_first_contact()
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
+
+    def modify_first_contact(self, contact):
+        wd = self.app.wd
+        self.select_first_contact()
+        wd.find_element_by_xpath("//*[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        self.fill_contact_form(contact)
+        wd.find_element_by_name("update").click()
+
+    def select_first_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("selected[]").click()
+
+
 
