@@ -13,6 +13,11 @@ class ContactHelper:
         self.fill_contact_form(contact)
         # submit contact creation
         wd.find_element_by_name("submit").click()
+        self.go_to_homepage()
+
+    def go_to_homepage(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
 
     def fill_contact_form(self, contact):
         # fill contact form
@@ -69,6 +74,11 @@ class ContactHelper:
     def select_first_contact(self):
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
+
+    def count(self):
+        wd = self.app.wd
+        return len(wd.find_elements_by_name("selected[]"))
+
 
 
 
