@@ -19,7 +19,7 @@ class ContactHelper:
     def go_to_homepage(self):
         wd = self.app.wd
         print(wd.current_url)
-        if not (wd.current_url == "http://localhost/addressbook/index.php"):
+        if not (wd.current_url == "http://localhost/addressbook/index.php" and len(wd.find_elements_by_xpath("//div[@id='search-az']/form/input")) > 0):
             wd.find_element_by_link_text("home").click()
 
     def fill_contact_form(self, contact):
