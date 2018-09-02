@@ -2,12 +2,11 @@ from model.contact import Contact
 import random
 import string
 import os.path
-import json
+import jsonpickle
 import getopt
 import sys
 
 
-# параметризуем метод генерации тестовых данных
 try:
     opts, args = getopt.getopt(sys.argv[1:], "n:f:", ["number of groups", "file"])
 except getopt.GetoptError as err:
@@ -25,13 +24,11 @@ for o, a in opts:
         f = a
 
 
-# генерируем строки, состоящие из случайных символов
 def random_string(prefix, maxlenth):
     symbols = string.ascii_letters + string.digits + " "*10
     return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlenth))])
 
 
-# создаем объекты типа Contact
 testdata = [Contact(firstname="", middlename="", lastname="",
                       nickname="", title="", company="", address="", homephone="",
                       mobilephone="", workphone="", fax="", email="", email2="",
@@ -57,8 +54,8 @@ testdata = [Contact(firstname="", middlename="", lastname="",
                     notes=random_string("notes", 50)) for i in range(n)]
 
 
-# открываем файл на запись и записываем сгенерированные контакты в виде строки, преобразованной в формат json
 file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f)
 
 with open(file, "w") as out:
-    out.write(json.dumps(testdata, default=lambda x: x.__dict__, indent=2))
+    jsonpickle.set_encoder_options("json", indent=2)
+    out.write(jsonpickle.encode(testdata))
